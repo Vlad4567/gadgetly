@@ -1,11 +1,10 @@
 {
   "files": {
     "main.css": "./static/css/main.9b9e59df.css",
-    "main.js": "./static/js/main.060933d3.js",
+    "main.js": "./static/js/main.3a0025ed.js",
     "static/media/banner-tablets.png": "./static/media/banner-tablets.3ab0c9b71cae9e04b094.png",
     "static/media/banner-phones.png": "./static/media/banner-phones.f509ad3c8ed651749cb5.png",
     "static/media/banner-accessories.png": "./static/media/banner-accessories.6a3884f3f1091702f8ed.png",
-    "static/media/logo.svg": "./static/media/logo.3c6bd1886792ca6da9d59ce7bea7dc78.svg",
     "static/media/product-not-found.png": "./static/media/product-not-found.8214da88616b09290166.png",
     "static/media/Mont-Regular.otf": "./static/media/Mont-Regular.1d26d89f7339866d3133.otf",
     "static/media/Mont-SemiBold.otf": "./static/media/Mont-SemiBold.8979d71a3146ca1d761f.otf",
@@ -14,6 +13,7 @@
     "static/media/category-tablets.webp": "./static/media/category-tablets.b33c1739317f62b284f9.webp",
     "static/media/category-accessories.webp": "./static/media/category-accessories.bcfeec05ec76fb687f51.webp",
     "static/media/category-phones.webp": "./static/media/category-phones.7dfccacbf08890845843.webp",
+    "static/media/logo.svg": "./static/media/logo.7bb222c8971920f38b47b1d8cfec7ba5.svg",
     "static/media/cart.svg": "./static/media/cart.f9632dca8fdaed9bb696b99ac28006ba.svg",
     "static/media/favourites-heart-like.svg": "./static/media/favourites-heart-like.670cf5136eb8aecd15dcbb439577b93e.svg",
     "static/media/favourites.svg": "./static/media/favourites.670cf5136eb8aecd15dcbb439577b93e.svg",
@@ -30,10 +30,10 @@
     "static/media/minus.svg": "./static/media/minus.cecb4be39afa7b933ec169dd495a73ff.svg",
     "index.html": "./index.html",
     "main.9b9e59df.css.map": "./static/css/main.9b9e59df.css.map",
-    "main.060933d3.js.map": "./static/js/main.060933d3.js.map"
+    "main.3a0025ed.js.map": "./static/js/main.3a0025ed.js.map"
   },
   "entrypoints": [
     "static/css/main.9b9e59df.css",
-    "static/js/main.060933d3.js"
+    "static/js/main.3a0025ed.js"
   ]
 }
