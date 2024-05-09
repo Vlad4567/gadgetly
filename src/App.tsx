@@ -1,21 +1,27 @@
-import React from 'react';
-import './App.scss';
+import { useDocumentTitle } from 'usehooks-ts';
+import { Header } from './components/Header';
+import { Outlet, useLocation, useSearchParams } from 'react-router-dom';
+import { websiteName } from './helpers/variables';
+import { convertHyphenToSpace } from './helpers/functions';
+import { BurgerMenuAside } from './components/BurgerMenuAside';
+import { Footer } from './components/Footer';
 
-interface Props {
-  onClick: () => void;
-  children: React.ReactNode;
-}
+export const App = () => {
+  const [searchParams] = useSearchParams();
+  const { pathname } = useLocation();
+  const lastPathName = pathname.split('/').pop();
 
-export const Provider: React.FC<Props> = React.memo(({ onClick, children }) => (
-  <button type="button" onClick={onClick}>
-    {children}
-  </button>
-));
+  useDocumentTitle(convertHyphenToSpace(lastPathName || '') || websiteName);
 
-export const App: React.FC = () => {
   return (
-    <div className="starter">
-      <Provider onClick={() => ({})}>TodoList</Provider>
-    </div>
+    <>
+      <Header />
+
+      {searchParams.get('burgerMenu') === 'open' && <BurgerMenuAside />}
+
+      <Outlet />
+
+      <Footer className="mt-auto" />
+    </>
   );
 };
